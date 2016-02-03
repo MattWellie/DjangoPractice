@@ -82,13 +82,23 @@ DATABASES = {
     }
 }
 
+#DATABASES = {
+#   'maria': {
+#       'ENGINE': 'django.db.backends.mysql',
+#       'NAME': Full path of the database in the file system
+#       'USER': username
+#       'PASSWORD': password
+#       'HOST': location?
+
+
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'GMT'
 
 USE_I18N = True
 
